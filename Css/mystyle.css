@@ -4,7 +4,9 @@
 }
 
 .calc_body {
-    background-color: #2C3E50;
+    background-color: #2a2c2e;
+    border-style: outset;
+    border-color: black;
 }
 
 #calc_name {
@@ -12,12 +14,20 @@
 }
 
 #calc_display {
-    background-color: #ECF0F1;
+    background-color: #edf3f5;
     text-align: right;
     border-style: inset;
     font-family: digital-clock-font;
+    margin-top: 10px;
+    border-color: black;
 }
 
-.button {
-    display: block;
+.button_pad {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+body {
+    background-color: silver;
+    padding-top: 30px;
 }
