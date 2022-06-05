@@ -1,0 +1,13 @@
+.calc_body {
+    background-color: #2C3E50;
+}
+
+#calc_name {
+    text-align: right;
+}
+
+#calc_display {
+    background-color: #ECF0F1;
+    text-align: right;
+    border-style: inset;
+}
