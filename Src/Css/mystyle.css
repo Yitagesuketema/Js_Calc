@@ -6,16 +6,18 @@
   #calc_name{
     text-align: right;
     margin-right: 25px;
-
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
   }
+
+  #result {font-size: 40px;display: inline;}
 
 .calc_body{
     background-color:#f2f2f2;
     width:450px;
     height: auto;
     margin: auto;
-    border-radius: 10px;
-   
+    border-radius: 10px; 
 }
 
 button{
@@ -24,13 +26,15 @@ text-align: center;
 background-color: blueviolet;
 color:#f2f2f2;
 border-radius: 15px;
-
+margin-top: 10px;
+margin-bottom: 10px;
 }
-.left_btn{margin-left: 0px;width:85px}
-.middle_btn{margin: 0px 5px;width: 90px;}
-.right_btn{margin-left: 5px;width: 95px;}
 
-#plus {margin-right: 0px;}
+.left_btn{margin-left: 0px;width:85px;background-color: black;}
+.middle_btn{margin: 0px 5px;width: 90px;background-color: black;}
+.right_btn{margin-left: 5px;width: 95px;background-color: blue;}
+
+#equal{background-color: rgb(228, 51, 186);}
 
 .calc_display{
     background-color: #c0bda5;
@@ -43,4 +47,5 @@ border-radius: 15px;
 .btn_group{
 width: 400px;
 margin:0px 25px;
+margin-bottom: 15px;
 }
