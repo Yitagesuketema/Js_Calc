@@ -1,0 +1,12 @@
+.calc_body{
+    background-color:#f2f2f2;
+    width:200px;
+    height: 400px;
+    margin: auto;
+    width: 50%;
+}
+#calc_name{
+
+color: blueviolet;
+text-align: right;
+}
